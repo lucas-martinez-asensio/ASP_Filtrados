@@ -6,7 +6,7 @@ Especialidad,
 Medicamentos,
 Sede,
 Paciente,
-Doctor
+Profesional
 
 Vistas (✔)
 Filtrados (✔)
