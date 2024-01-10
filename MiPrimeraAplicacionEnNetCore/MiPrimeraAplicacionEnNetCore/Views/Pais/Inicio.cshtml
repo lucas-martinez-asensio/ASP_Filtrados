@@ -1,0 +1,20 @@
+﻿
+@{
+    ViewData["Title"] = "Inicio";
+    string mensaje = "Bienvenido!";
+    int suma = 20 + 10;
+    string[] nombres = { "Lucas", "Tati", "Nina", "Michi" };
+}
+
+<h1>Nueva Página por Defecto</h1>
+
+<h1>@mensaje</h1>
+<h1>La suma es @suma</h1>
+<h1>Mi pagina creada a partir del Controller Pais</h1>
+
+@foreach(string nom in nombres){
+    @if (nom.StartsWith("L"))
+    {
+        <h2>El nombre es @nom.ToUpper()</h2>;
+    }
+}

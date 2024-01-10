@@ -1,0 +1,51 @@
+﻿@model IEnumerable<MiPrimeraAplicacionEnNetCore.Clases.SedeCLS>
+
+@{
+    ViewData["Title"] = "Index";
+    string nombreSede = ViewBag.nombreSede;
+}
+
+<form id="formEnviar" asp-controller="Sede" asp-action="Index" class="mb-2" method="post">
+    <label>Ingrese Sede</label>
+    <input type="text" class="form form-control" name="nombreSede" value="@nombreSede" onkeyup="Buscar()" />
+
+</form>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.iidSede)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombreSede)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.direccion)
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.iidSede)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombreSede)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.direccion)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<script>
+
+    function Buscar() {
+        document.getElementById("formEnviar").submit();
+    }
+
+</script>

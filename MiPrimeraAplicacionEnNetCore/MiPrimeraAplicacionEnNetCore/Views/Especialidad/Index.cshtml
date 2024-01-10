@@ -1,0 +1,47 @@
+﻿@using MiPrimeraAplicacionEnNetCore.Clases;
+@model IEnumerable<EspecialidadCLS>
+@{
+    ViewData["Title"] = "Index";
+    string nombreEspecialidad = ViewBag.nombreEspecialidad;
+}
+<a class="btn btn-secondary" asp-action="Agregar" asp-controller="Especialidad">Agregar</a>
+<form asp-controller="Especialidad" asp-action="Index" method="post" class="mb-2"
+      style="display:grid;grid-template-columns:1fr 2fr 1fr 1fr" id="filterForm">
+
+    <label>Ingrese Especialidad</label>
+    <input type="text" class="form form-control" name="nombre" value="@nombreEspecialidad" id="nombre"/>
+    <input type="submit" value="Enviar" class="btn btn-info" />
+    <input type="button" value="Limpiar" class="btn btn-danger" onclick="Limpiar()"/>
+</form>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>@Html.DisplayNameFor(model=>model.iidespecialidad)</th>
+            <th>@Html.DisplayNameFor(model=>model.nombre)</th>
+            <th>@Html.DisplayNameFor(model=>model.descripcion)</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(EspecialidadCLS oEspecialidad in Model)
+        {
+            <tr>
+                <td>@oEspecialidad.iidespecialidad</td>
+                <td>@oEspecialidad.nombre</td>
+                <td>@oEspecialidad.descripcion</td>
+            </tr>
+        }
+
+
+
+    </tbody>
+</table>
+
+<script>
+
+    function Limpiar() {
+        document.getElementById("nombre").value = "";
+        document.getElementById("filterForm").submit();
+    }
+
+</script>

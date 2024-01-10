@@ -1,0 +1,89 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = MiPrimeraAplicacionEnNetCore
+build_property.RootNamespace = MiPrimeraAplicacionEnNetCore
+build_property.ProjectDir = C:\Users\lucas\OneDrive\Documentos\Programacion\ASP .NET CORE 6\Seccion 2\MiPrimeraAplicacionEnNetCore\MiPrimeraAplicacionEnNetCore\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\lucas\OneDrive\Documentos\Programacion\ASP .NET CORE 6\Seccion 2\MiPrimeraAplicacionEnNetCore\MiPrimeraAplicacionEnNetCore
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Especialidad/Agregar.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkXEFncmVnYXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Especialidad/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXNwZWNpYWxpZGFkXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Home/MiPagina.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxNaVBhZ2luYS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Medicamento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVkaWNhbWVudG9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Pagina/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnaW5hXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Pais/Inicio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xJbmljaW8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Pais/Lista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Pais/PruebaLista.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFpc1xQcnVlYmFMaXN0YS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Persona/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uYVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Sede/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2VkZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/TipoUsuario/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlwb1VzdWFyaW9cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/lucas/OneDrive/Documentos/Programacion/ASP .NET CORE 6/Seccion 2/MiPrimeraAplicacionEnNetCore/MiPrimeraAplicacionEnNetCore/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-8alodle5yi

@@ -1,0 +1,78 @@
+﻿@model IEnumerable<MiPrimeraAplicacionEnNetCore.Clases.MedicamentoCLS>
+
+@{
+    ViewData["Title"] = "Index";
+    string mensaje = ViewBag.Mensaje;
+
+    List<SelectListItem> listaForma = ViewBag.listaForma;
+}
+
+<form style="display:grid,grid-template-columns:1fr 2fr" class="mb-2" id="frmEnviar">
+    <label>Ingresa Forma farmaceútica</label>
+    @Html.DropDownList("iidFormaFarmaceutica",listaForma, new {@class="form form-control"})
+
+</form>
+
+
+<h1>@mensaje</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.iidMedicamento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.nombre)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stock)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.formaFarmaceutica)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.iidMedicamento)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.precio)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stock)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.formaFarmaceutica)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<script>
+    let iidFormaFarmaceutica = document.getElementById("iidFormaFarmaceutica");
+    iidFormaFarmaceutica.onchange = function () {
+        document.getElementById("frmEnviar").submit();
+    }
+</script>

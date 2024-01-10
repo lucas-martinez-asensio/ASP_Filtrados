@@ -1,0 +1,45 @@
+﻿@using MiPrimeraAplicacionEnNetCore.Clases;
+
+
+@{
+    ViewData["Title"] = "Lista";
+
+    List<InstructorCLS> lista = new List<InstructorCLS>();
+    InstructorCLS oInstructorCLS = new InstructorCLS();
+    oInstructorCLS.nombre = "Lucas";
+    oInstructorCLS.aMatern = "ola";
+    lista.Add(oInstructorCLS);
+    oInstructorCLS = new InstructorCLS();
+    oInstructorCLS.nombre = "Tati";
+    oInstructorCLS.aPatern = "Da Fonte";
+    lista.Add(oInstructorCLS);
+}
+
+<h1>Página por Defecto</h1>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Nombre
+            </th>
+
+            <th>
+                Apellido Paterno
+            </th>
+
+            <th>
+                Apellido Materno
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (InstructorCLS instructor in lista)
+        {
+            <tr>
+                <td>@instructor.nombre</td>
+                <td>@instructor.aPatern</td>
+                <td>@instructor.aMatern</td>
+            </tr>
+        }
+    </tbody>
+</table>

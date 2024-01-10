@@ -1,0 +1,54 @@
+﻿@using MiPrimeraAplicacionEnNetCore.Clases;
+@model IEnumerable<PaginaCLS>
+
+@{
+    ViewData["Title"] = "Index";
+
+    string mensaje = ViewBag.mensaje;
+}
+
+
+<form asp-asp-controller="Pagina" asp-action="Index" id="filterForm">
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <label>IngreseMensaje</label>
+                <input type="text" value="@mensaje" name="mensaje" class="form form-control" id="mensaje"/>
+                <input type="submit" value="Enviar" class="btn btn-primary"/>
+                <input type="button" value="Limpiar" class="btn btn-danger" onclick="Limpiar()"/>
+            </tr>
+        </thead>
+    </table>    
+    <table class="table">
+        <thead class="thead-dark">
+            <tr>
+                <th>ID Pagina</th>
+                <th>Mensaje</th>
+                <th>@Html.DisplayNameFor(model=>model.accion)</th>
+                <th>@Html.DisplayNameFor(model=>model.controlador)</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(PaginaCLS oPaginCLS in Model)
+            {
+                <tr>
+                    <td>@oPaginCLS.iidPagina</td>
+                    <td>@oPaginCLS.mensaje</td>
+                    <td>@oPaginCLS.accion</td>
+                    <td>@oPaginCLS.controlador</td>
+                </tr>
+            }
+
+
+        </tbody>
+
+    </table>
+
+</form>
+
+<script>
+    function Limpiar() {
+        document.getElementById("mensaje").value = "";
+        document.getElementById("filterForm").submit();
+    }
+</script>
