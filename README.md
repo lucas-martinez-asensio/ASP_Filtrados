@@ -8,7 +8,7 @@ Sede
 Paciente
 Doctor
 
-Vistas ✔
-Filtrados ✔
-CRUD
-Autenticación
+Vistas (✔)
+Filtrados (✔)
+CRUD (pendiente)
+Autenticación (pendiente)
